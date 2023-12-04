@@ -25,13 +25,14 @@ function App() {
         </div>
       </div>
       <Chart/>
-      <Router>
+      <ContactUs/>
+      {/* <Router>
         <Routes>
           <Route exact path="/" element={<TodoList />} /> 
           <Route exact path="/contactUs" element={<ContactUs />} />
           <Route exact path="/charts" element={<Chart />} />
         </Routes>
-      </Router>
+      </Router> */}
     </div>
   );
 }
